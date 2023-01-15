@@ -1,18 +1,15 @@
 import React from 'react';
-import './App.css';
 
 // Components
-import Button, { ButtonVariant } from './components/button.tsx';
+import Logic from './form/logic.tsx';
+
+// Stylesheets
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Button
-        variant={ButtonVariant.BLUE}
-        onClick={() => console.log('Submitted')}
-      >
-        Submit
-      </Button>
+      <Logic />
     </div>
   );
 }

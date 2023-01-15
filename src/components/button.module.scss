@@ -1,0 +1,19 @@
+.button {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.blue {
+  color: #ffffff;
+  background-color: #377dff;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #276dff;
+  }
+
+  &:active {
+    outline: 2px solid #276dff55;
+  }
+}
